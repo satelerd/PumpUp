@@ -1,0 +1,118 @@
+<html><head><base href="https://websim.ai/"><title>PumpUp - Tu Entrenador Personal Digital</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background: linear-gradient(135deg, #8A2BE2, #4169E1);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+  }
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 1.8em;
+    color: #8A2BE2;
+  }
+  .subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  .section {
+    background: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .cta-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  .emoji {
+    font-size: 1.5em;
+    margin-right: 5px;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  .pulse {
+    animation: pulse 2s infinite;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Bienvenido a PumpUp 💪</h1>
+      <p class="subtitle">Tu Entrenador Personal Digital... porque, ¿quién necesita un humano cuando tienes agentes, verdad? 😉</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>¿Qué es PumpUp?</h2>
+      <p>PumpUp es como ese amigo fitness que siempre quisiste tener, pero digital y sin el sudor. 🤖💦 Ofrecemos planes de entrenamiento personalizados que se adaptan a ti, ya seas un atleta de sofá o el próximo Usain Bolt.</p>
+    </div>
+
+    <div class="section">
+      <h2>¿Cómo Funciona PumpUp?</h2>
+      <ol>
+        <li><strong>Evaluación Inicial:</strong> Te hacemos preguntas. Muchas preguntas. Porque nos importas (y nuestros algoritmos necesitan datos). 📊</li>
+        <li><strong>Plan Personalizado:</strong> Creamos un plan de entrenamiento único para ti. Es como tener un traje a medida, pero para tus músculos. 🧵💪</li>
+        <li><strong>Interacción Continua:</strong> Estaremos contigo en cada paso. Como un acosador, pero legal y beneficioso. 👀</li>
+        <li><strong>Recursos Adicionales:</strong> Te damos consejos sobre nutrición, sueño y vida saludable. Básicamente, intentamos ser tu mamá, pero en versión fitness. 🍎😴</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Beneficios de Usar PumpUp</h2>
+      <ul>
+        <li><span class="emoji">🎯</span> <strong>Personalización Total:</strong> Porque eres especial. Tu mamá tenía razón.</li>
+        <li><span class="emoji">🚀</span> <strong>Motivación Constante:</strong> Te animamos como si fueras el último corredor de un maratón.</li>
+        <li><span class="emoji">🧠</span> <strong>Conocimiento Científico:</strong> Respaldado por la ciencia, no por el tipo musculoso del gimnasio.</li>
+        <li><span class="emoji">📱</span> <strong>Conveniencia Digital:</strong> Tu entrenador personal en tu bolsillo. Sin olores a sudor incluidos.</li>
+      </ul>
+    </div>
+
+    <div class="section" style="text-align: center;">
+      <h2>¿Listo para Empezar tu Transformación?</h2>
+      <p>Haz clic en el botón mágico de abajo. No te preocupes, no aparecerá un genio, solo un formulario. 🧞‍♂️📝</p>
+      <a href="#" class="cta-button pulse">Comienza Ahora</a>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('.cta-button').addEventListener('mouseover', function() {
+      this.textContent = "¡Vamos, tú puedes! 🎉";
+    });
+    document.querySelector('.cta-button').addEventListener('mouseout', function() {
+      this.textContent = "Comienza Ahora";
+    });
+  </script>
+</body></html>
